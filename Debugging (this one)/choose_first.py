@@ -1,5 +1,5 @@
 # Imports
-from Player import Player
+from player import Player
 from random import randint
 
 # Sets either Player 1 or Player 2 be first

@@ -1,5 +1,5 @@
-from Board import Board
-from Player import Player
+from board import Board
+from player import Player
 from ask_move import ask_move
 
 def play_tic_tac_toe(p1, p2):

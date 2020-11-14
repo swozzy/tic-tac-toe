@@ -1,7 +1,7 @@
 # IMPORTS
 from print_rules import print_rules
 from create_players import create_players
-from Player import Player
+from player import Player
 from choose_first import choose_first
 from choose_symbols import choose_symbols
 from play_tic_tac_toe import play_tic_tac_toe
