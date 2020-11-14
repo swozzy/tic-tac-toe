@@ -26,14 +26,25 @@ class Board():
     def print_board(self):
         print()
         for i in self.dup_board:
-            print(self.dup_board[i], '|', end='')
             if i%3 == 0:
-        	       print("\n---------")
+                print(self.dup_board[i],end='')
+                print("\n---------")
+            else:
+                print(self.dup_board[i], '|', end='')
         print()
 
+    def check_before_update(self,player, index):
+        if index in self.free_spots:
+            print(index)
+            return True
+        else:
+            return False
+
     def update_board(self, player, index):
+
         self.free_spots.remove(index)
         self.dup_board[index] = player.get_symbol().upper()
+
 
         return self.win_check()
 
