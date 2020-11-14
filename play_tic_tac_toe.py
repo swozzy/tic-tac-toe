@@ -24,11 +24,15 @@ def play_tic_tac_toe(p1, p2):
 
             # P1 SEQUENCE
             index = ask_move(p1)
+            while b.check_before_update(p1,index) is False:
+                print("\n!!  SPOT HAS BEEN TAKEN, PLEASE CHOOSE AGAIN")
+                index = ask_move(p1)
             b.update_p1(p1, index)
             won_flag = b.update_board(p1, index)
             b.print_board()
 
             move_counter = move_counter + 1
+
 
             if (move_counter == 9):
                 print("!! GAME ENDED IN TIE !!")
@@ -38,6 +42,9 @@ def play_tic_tac_toe(p1, p2):
 
             # P2 SEQUENCE
             index = ask_move(p2)
+            while b.check_before_update(p2,index) is False:
+                print("\n!!  SPOT HAS BEEN TAKEN, PLEASE CHOOSE AGAIN")
+                index = ask_move(p2)
             b.update_p2(p2, index)
             won_flag = b.update_board(p2, index)
             b.print_board()
@@ -52,6 +59,9 @@ def play_tic_tac_toe(p1, p2):
 
             # P2 SEQUENCE
             index = ask_move(p2)
+            while b.check_before_update(p2,index) is False:
+                print("\n!!  SPOT HAS BEEN TAKEN, PLEASE CHOOSE AGAIN")
+                index = ask_move(p2)
             b.update_p2(p2, index)
             won_flag = b.update_board(p2, index)
             b.print_board()
@@ -66,6 +76,9 @@ def play_tic_tac_toe(p1, p2):
 
             # P1 SEQUENCE
             index = ask_move(p1)
+            while b.check_before_update(p1,index) is False:
+                print("\n!!  SPOT HAS BEEN TAKEN, PLEASE CHOOSE AGAIN")
+                index = ask_move(p1)
             b.update_p1(p1, index)
             won_flag = b.update_board(p1, index)
             b.print_board()
