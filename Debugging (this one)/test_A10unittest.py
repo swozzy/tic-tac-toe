@@ -25,6 +25,7 @@ class Test_TestTicTacToe(unittest.TestCase): #extending testcase class
 
     def test_run_mult_times(self):
         self.assertAlmostEqual(chooserandom.run_mult_times(), 50, 1)
+        
     ###########################
     # TEST 1C) -- WIN-CHECKER #
     ###########################
