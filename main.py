@@ -10,7 +10,7 @@ def main():
     log = logging.getLogger("main")
     logging.basicConfig(format='%(asctime)s %(message)s', datefmt='%Y:%m:%d %I:%M:%S %p')
     logging.basicConfig(level=os.environ.get("LOGLEVEL","INFO"))
-    handler = logging.handlers.WatchedFileHandler(os.environ.get("LOGFILE","app-log.log"))
+    handler = logging.handlers.WatchedFileHandler(os.environ.get("LOGFILE","game-log.log"))
     handler.setFormatter(logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s - %(funcName)s - line %(lineno)d"))
     log.addHandler(handler)
     log.setLevel(logging.INFO)
