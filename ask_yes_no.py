@@ -12,7 +12,7 @@ def ask_yes_no(question):
     # Array filled with "yes" answers
     yes_ans = ["yes", "ye", "y", "ya", "yea", "yeah", "yup"]
     # Array filled with "no" answers
-    no_ans = ["no", "n", "nah", "na"]
+    no_ans = ["no", "n", "nah", "na", "nop", "nope"]
 
     # Array filled with "yes" and "no" answers
     both_ans = []
