@@ -2,8 +2,7 @@ def ask_symbol(player):
 
     # Asks user if they'll be X or O
     print()
-    user_in = input(player.get_name() + ", will you be X or O? (X/O): ").lower()
-    user_in = str(user_in)
+    user_in = input(str(player.get_name() + ", will you be X or O? (X/O): ")).lower()
 
     # Accepted inputs
     accpt_in = ["x", "o", "0"]
