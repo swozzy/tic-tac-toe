@@ -1,4 +1,8 @@
 # 'Board' class
+import logging
+import logging.handlers
+import os
+from datetime import datetime
 class Board():
 
     # Initialization. Holds board, board information, and player moves
@@ -50,11 +54,11 @@ class Board():
 
     # Checks all winning conditions
     def win_check(self):
-
+        log = logging.getLogger("main")
         # For Reference
-        winning_conditions = [[1, 2, 3], [4, 5, 6], [7, 8, 9], \
-                             [1, 4, 7], [2, 5, 8], [3, 6, 9], \
-                             [1, 5, 9], [3, 5, 7]]
+       # winning_conditions = [[1, 2, 3], [4, 5, 6], [7, 8, 9], \
+                       #      [1, 4, 7], [2, 5, 8], [3, 6, 9], \
+                        #     [1, 5, 9], [3, 5, 7]]
 
         if ((1 in self.p1_moves) and (2 in self.p1_moves) and (3 in self.p1_moves)) or \
         ((4 in self.p1_moves) and (5 in self.p1_moves) and (6 in self.p1_moves)) or \
@@ -66,6 +70,7 @@ class Board():
         ((3 in self.p1_moves) and (5 in self.p1_moves) and (7 in self.p1_moves)):
             print("\n!! CONGRATULATIONS !!")
             print("** " + self.p1.get_name().upper() + " WON **")
+            log.info("** " + self.p1.get_name().upper() + " WON **")
             return True
 
         elif ((1 in self.p2_moves) and (2 in self.p2_moves) and (3 in self.p2_moves)) or \
@@ -78,6 +83,7 @@ class Board():
         ((3 in self.p2_moves) and (5 in self.p2_moves) and (7 in self.p2_moves)):
             print("\n!! CONGRATULATIONS !!")
             print("** " + self.p2.get_name().upper() + " WON **")
+            log.info("** " + self.p1.get_name().upper() + " WON **")
             return True
 
         return False
