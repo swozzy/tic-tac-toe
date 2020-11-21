@@ -11,7 +11,7 @@ def ask_move(player):
     while user_in not in ['1','2','3','4','5','6','7','8','9']:
 
         print("\n!! INVALID INPUT")
-        print("Please enter a number (1-9) that corresponds to a spot on the gameboard"
+        print("Please enter a number (1-9) that corresponds to a spot on the gameboard")
 
         user_in =(input("\n" + player.get_name() + ", please choose an empty spot to move to: "))
 
