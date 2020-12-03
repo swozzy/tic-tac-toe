@@ -23,8 +23,7 @@ def main():
     flag = play_again()
 
     # CHANGE THIS SO IT DOESN'T PRINT TWICE
-    # one more
-    
+
     if not flag:
         print("\n** THANK YOU FOR PLAYING !! **")
 
