@@ -16,8 +16,6 @@ def main():
     log.setLevel(logging.INFO)
     log.info("Game start")
 
-
-
     initialization()
 
     flag = play_again()
