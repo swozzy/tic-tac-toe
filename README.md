@@ -41,15 +41,15 @@ https://www.youtube.com/watch?v=03PkciQUujk
 
 * #### Installing Necessary Libraries
    * Pylint
-1. Open a terminal
-2. Type in "pip install -U pytest" and press Enter
-3. The download should complete automatically.
-   Pylint's website's instructions: python -m pip install pylint
+     1. Open a terminal
+     2. Type in "pip install -U pytest" and press Enter
+     3. The download should complete automatically.
+     Pylint's website's instructions: python -m pip install pylint
    
    * Pytest
-1. Open a terminal
-2. Type in "pip install -U pytest" and press Enter
-3. The download should complete automatically.
+     1. Open a terminal
+     2. Type in "pip install -U pytest" and press Enter
+     3. The download should complete automatically.
    Pytest's website's instructions: https://docs.pytest.org/en/3.0.1/getting-started.html
 
 
