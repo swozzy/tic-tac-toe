@@ -26,7 +26,7 @@ def print_midgame():
 #################
 
 # Is the "introduction" to our game and prints out rules.
-def print_rules():
+def print_the_rules():
 
 # Asks user if they would like to skip the introduction
 

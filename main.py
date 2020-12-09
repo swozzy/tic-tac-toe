@@ -1,5 +1,7 @@
-from initialization import initialization
-from play_again import play_again
+from methods_and_classes.initialization import initialization
+from methods_and_classes.play_again import play_again
+
+# Logging imports
 import logging
 import logging.handlers
 import os

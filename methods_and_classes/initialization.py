@@ -1,5 +1,5 @@
 # IMPORTS
-from print_rules import print_rules
+from print_rules import print_the_rules
 from create_players import create_players
 from Player import Player
 from choose_first import choose_first
@@ -10,7 +10,7 @@ from play_again import play_again
 def initialization():
 
     # PRINT RULES / INTRODUCTION
-    print_rules()
+    print_the_rules()
 
     # CREATES AND RETURNS TWO PLAYER OBJECTS
     p1, p2 = create_players()
