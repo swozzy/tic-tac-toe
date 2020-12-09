@@ -10,7 +10,7 @@
 In order to ensure proper gameplay, we suggest having the most up-to-date version (3.9.0+) of Python installed. Please see the steps below for making sure that this version is installed. 
 
 1. Open a terminal
-2. Type "python --version"
+2. Type ```python --version```
 3. Press Enter. The terminal should print which version of Python you have installed. Please make sure that the version number is 3.9.0 or higher. If you have an older version of Python installed, please see the "Installing Python" subsection underneath "Setting Up."
 
 __WARNING__: Not having the most recent version installed may cause bugs, errors, and failure in starting the application.
@@ -37,37 +37,38 @@ https://www.youtube.com/watch?v=03PkciQUujk
 2. Click the "Download Python 3.9.X" button
 3. Open the downloaded file
 4. Proceed through the installation. Make sure you install a 64-bit (x86-64) version of Python
-5. Open a terminal and execute the "python --version" command to ensure that you installed the latest version
+5. Open a terminal and execute the ```python --version``` command to ensure that you installed the latest version
 
 * #### Installing Necessary Libraries
    * Pylint
      1. Open a terminal
-     2. Type in "pip install -U pytest" and press Enter
+     2. Type in ```python -m pip install pylint``` and press Enter
      3. The download should complete automatically.
-     Pylint's website's instructions: python -m pip install pylint
+     For help, please see Pylint's website's instructions: https://www.pylint.org/#install
    
    * Pytest
      1. Open a terminal
-     2. Type in "pip install -U pytest" and press Enter
+     2. Type in ```pip install -U pytest``` and press Enter
      3. The download should complete automatically.
-   Pytest's website's instructions: https://docs.pytest.org/en/3.0.1/getting-started.html
+     For help, please see Pytest's website's instructions: https://docs.pytest.org/en/3.0.1/getting-started.html
 
 * #### Downloading Github Code
   1. You're probably in this repository already, but if not, please follow this link: https://github.com/swozzy/tic-tac-toe/tree/main
   2. Click the green " ⬇ Code" button
   3. Download the repository as a ZIP file. It should be called "tic-tac-toe-main"
-  4. Open the folder that the ZIP file was downloaded to. Extract the files in that folder
-  5. 
-  * Location of main function:
-  * Which branch to run the game:
+  4. Open the folder that contains the ZIP file. Extract the files in that folder
+  5. You should see a folder called "tic-tac-toe-main." We will use the terminal to get to the main.py function and execute it in the section below called "Running the Game."
   
-* #### Running the game
-  1. Complete above section
-  2. Open up terminal
-  3. cd way to directory with tic tac toe file
-  4. cd tic tac toe
-  5. python main.py
-  6. Have fun!
+  
+  __NOTE (1)__: Location of main function: C:\...\FOLDER_EXTRACTED_TO\tic-tac-toe-main\methods_and_classes
+  * Which branch to run the game:
+  __NOTE (2)__: There are no branches besides the ```main``` branch, so please use that one.
+  
+* #### Running the Game
+  1. Open up the terminal and ```cd``` your way to "tic-tac-toe-main."
+  2. Once you are in the folder, type ```cd methods_and_classes``` and press Enter.
+  3. Now you can run main.py by entering ```python main.py```.
+  4. Please enjoy our game!
  
 ### Running tests
   1. ....
