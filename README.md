@@ -1,9 +1,9 @@
-# Tic-Tac-toe.README
-## SWE -- Fall 2020 -- //TODO: Team Name
+# READ_ME!
+## Fall 2020 -- //TODO: Team Name
 
 ![Logo](images/tttp.PNG)
 
-                                                                                   
+
 
 ### Prerequesites
 * #### Checking Python version
