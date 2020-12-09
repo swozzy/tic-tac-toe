@@ -23,7 +23,7 @@ __WARNING__: Not having the most recent version installed may cause bugs, errors
   
 ![Pytest](images/pytest.png)
 
-  [Pytest](thttps://docs.pytest.org/en/stable/) is "a framework that makes building simple and scalable tests easy." Please make sure this library is installed if you would like to perform tests on our code.
+  [Pytest](https://docs.pytest.org/en/stable/) is "a framework that makes building simple and scalable tests easy." Please make sure this library is installed if you would like to perform tests on our code.
 
 ### Setting up
 
@@ -36,11 +36,23 @@ https://www.youtube.com/watch?v=03PkciQUujk
 1. Go to https://www.python.org/downloads/
 2. Click the "Download Python 3.9.X" button
 3. Open the downloaded file
-4. Proceed through the installation
+4. Proceed through the installation. Make sure you install a 64-bit (x86-64) version of Python
 5. Open a terminal and execute the "python --version" command to ensure that you installed the latest version
 
 * #### Installing Necessary Libraries
-   * TEST
+   * Pylint
+1. Open a terminal
+2. Type in "pip install -U pytest" and press Enter
+3. The download should complete automatically.
+   Pylint's website's instructions: python -m pip install pylint
+   
+   * Pytest
+1. Open a terminal
+2. Type in "pip install -U pytest" and press Enter
+3. The download should complete automatically.
+   Pytest's website's instructions: https://docs.pytest.org/en/3.0.1/getting-started.html
+
+
 
 * #### Downloading Github Code
   * Location of main function:
