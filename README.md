@@ -37,9 +37,11 @@ https://www.youtube.com/watch?v=03PkciQUujk
 2. Click the "Download Python 3.9.X" button
 3. Open the downloaded file
 4. Proceed through the installation
-5. Open a terminal and execute the "python --version" command to ensure that you installed the latest version.
+5. Open a terminal and execute the "python --version" command to ensure that you installed the latest version
 
 * #### Installing Necessary Libraries
+   * TEST
+
 * #### Downloading Github Code
   * Location of main function:
   * Which branch to run the game:
