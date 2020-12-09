@@ -54,6 +54,8 @@ https://www.youtube.com/watch?v=03PkciQUujk
     
     For further help, please see Pytest's website's instructions: https://docs.pytest.org/en/3.0.1/getting-started.html
 
+![GitHub](images/GitHub-Mark.png)
+
 * #### Downloading Github Code
   1. You're probably in this repository already, but if not, please follow this link: https://github.com/swozzy/tic-tac-toe/tree/main
   2. Click the green " ⬇ Code" button
