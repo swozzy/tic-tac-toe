@@ -1,9 +1,14 @@
-# READ_ME!
 ## Fall 2020 -- //TODO: Team Name
 
 ![Logo](images/tttp.PNG)
 
+# HOW TO PLAY
 
+Please visit our Wiki and read our User Documentation page -- just click the link below!
+
+https://github.com/swozzy/tic-tac-toe/wiki/User-Documentation
+
+# SETTING IT ALL UP
 
 ### Prerequesites
 * #### Checking Python version
@@ -54,7 +59,7 @@ https://www.youtube.com/watch?v=03PkciQUujk
     
     For further help, please see Pytest's website's instructions: https://docs.pytest.org/en/3.0.1/getting-started.html
 
-![GitHub](images/GitHub-Mark.png)
+![GitHub](images/gh.png)
 
 * #### Downloading Github Code
   1. You're probably in this repository already, but if not, please follow this link: https://github.com/swozzy/tic-tac-toe/tree/main
@@ -67,6 +72,8 @@ https://www.youtube.com/watch?v=03PkciQUujk
   __NOTE (1)__: Location of main function: C:\...\FOLDER_EXTRACTED_TO\tic-tac-toe-main\methods_and_classes
   
   __NOTE (2)__: There are no branches besides the ```main``` branch, so please use that one.
+  
+  ![cmd](images/cmd.PNG)
   
 * #### Running the Game
   1. Open up the terminal and ```cd``` your way to "tic-tac-toe-main."
