@@ -65,11 +65,11 @@ https://www.youtube.com/watch?v=03PkciQUujk
   1. You're probably in this repository already, but if not, please follow this link: https://github.com/swozzy/tic-tac-toe/tree/main
   2. Click the green " ⬇ Code" button
   3. Download the repository as a ZIP file. It should be called "tic-tac-toe-main"
-  4. Open the folder that contains the ZIP file. Extract the files in that folder
-  5. You should see a folder called "tic-tac-toe-main." We will use the terminal to get to the main.py function and execute it in the section below called "Running the Game."
+  4. Open the folder that contains the ZIP file. Extract the ZIP files to that folder
+  5. You should see a folder called "tic-tac-toe-main". We will use the terminal to get to the main.py function and execute it in the section below called "Running the Game."
   
   
-  __NOTE (1)__: Location of main function: C:\...\FOLDER_EXTRACTED_TO\tic-tac-toe-main\methods_and_classes
+  __NOTE (1)__: Location of main function (after downloading and extracting): C:\...\FOLDER_EXTRACTED_TO\tic-tac-toe-main\methods_and_classes\**main.py**
   
   __NOTE (2)__: There are no branches besides the ```main``` branch, so please use that one.
   
@@ -79,11 +79,10 @@ https://www.youtube.com/watch?v=03PkciQUujk
   1. Open up the terminal and ```cd``` your way to "tic-tac-toe-main."
   2. Once you are in the folder, type ```cd methods_and_classes``` and press Enter.
   3. Now you can run main.py by entering ```python main.py```.
-  4. Please enjoy our game!
+  4. Have fun!
  
 ### Running tests
-  1. ....
-
+  1. <Insert information on how to run tests here>
 
 
 
