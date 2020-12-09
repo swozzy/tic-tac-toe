@@ -28,13 +28,21 @@ class Board():
 
     # Uses .formatting() to print board
     def print_board(self):
+        
         print()
+        row_counter = 1
+
         for i in self.dup_board:
-            if i%3 == 0:
+            if (i%3 == 0) and (row_counter != 9):
                 print(self.dup_board[i],end='')
                 print("\n---------")
             else:
-                print(self.dup_board[i], '|', end='')
+                if row_counter != 9:
+                    print(self.dup_board[i], '| ', end='')
+                else:
+                    print(self.dup_board[i])
+
+            row_counter += 1
         print()
 
     def check_before_update(self,player, index):
@@ -48,7 +56,6 @@ class Board():
 
         self.free_spots.remove(index)
         self.dup_board[index] = player.get_symbol().upper()
-
 
         return self.win_check()
 

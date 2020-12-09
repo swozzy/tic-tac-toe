@@ -24,7 +24,7 @@ def initialization():
     # BOTH PLAYERS COMPLETELY INITIALIZED
     # GAME READY TO BE STARTED
 
-    print("\n** GAME START!! **\n")
+    print("\n** GAME START!! **")
 
     play_tic_tac_toe(p1, p2)
 
