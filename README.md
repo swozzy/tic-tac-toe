@@ -1,22 +1,26 @@
-# tic-tac-toe
-SWE - Fall 2020
+# Tic-Tac-toe.README
+## SWE - Fall 2020
 
-> include instructions on setting up the laptop and downloading and running your code
+### Prerequesites
+#### Checking Python version
+#### Libraries Needed
 
-Prerequesites
-* Version of Python
-* Libraries
-* Info on how to step up laptop
+### Setting up
 
-How to download code from GitHub
-How to run all tesets
-How to run game
-* Add info on which branch to run the game
-* Which file contains the main function
-* Exact command used to run the file with all the parameters, etc.
-
-
-
+* #### Installing Python
+* #### Downloading Github Code
+  * Location of main function:
+  * Which branch to run the game:
+* #### Running the game
+  1. Complete above section
+  2. Open up terminal
+  3. cd way to directory with tic tac toe file
+  4. cd tic tac toe
+  5. python main.py
+  6. Have fun!
+ 
+### Running tests
+  1. ....
 
 
 
