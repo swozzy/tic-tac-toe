@@ -4,7 +4,7 @@
 
 # HOW TO PLAY
 
-Please visit our Wiki and read our User Documentation page -- just click the link below!
+_Once you've checked out everything here_, please visit our Wiki and read our User Documentation page -- just click the link below!
 
 https://github.com/swozzy/tic-tac-toe/wiki/User-Documentation
 
