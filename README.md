@@ -16,12 +16,16 @@ In order to ensure proper gameplay, we suggest having the most up-to-date versio
 __WARNING__: Not having the most recent version installed may cause bugs, errors, and failure in starting the application.
 
 * #### Libraries Used
-![Pylint](images/pylint.PNG)
+
+![Pylint](images/pylint.png)
+
   * [Pylint](https://www.pylint.org/)
   
   Pylint is a "Python static code analysis tool which looks for programming errors, helps enforcing a coding standard, sniffs for code smells and offers simple refactoring suggestions." This library helped us to build you this wonderful game and, if you decide to branch it for yourself, we suggest you use it aswell!
-![Pytest](images/pytest.PNG)
-  * [Pytes](thttps://docs.pytest.org/en/stable/)
+  
+![Pytest](images/pytest.png)
+
+  * [Pytest](thttps://docs.pytest.org/en/stable/)
   
   Pytest is "a framework that makes building simple and scalable tests easy." Please make sure this library is installed if you would like to perform tests on our code.
 
