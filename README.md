@@ -1,20 +1,34 @@
 # Tic-Tac-toe.README
-## SWE - Fall 2020
-## //TODO: Team Name
+## SWE -- Fall 2020 -- //TODO: Team Name
+
+![Logo](images/tttp.PNG)
+
+                                                                                   
 
 ### Prerequesites
 * #### Checking Python version
-In order to ensure proper gameplay, we suggest having the most up-to-date version (3.9) of Python installed. Please see the steps below for making sure that this version is installed. 
+In order to ensure proper gameplay, we suggest having the most up-to-date version (3.9.0+) of Python installed. Please see the steps below for making sure that this version is installed. 
 
-__NOTE__: Not having the most recent version installed may cause bugs, errors, and failure in starting the application.
-* #### Libraries Needed
-* Pylint
-* Pytest
+1. Open a terminal
+2. Type "python --version"
+3. Press Enter. The terminal should print which version of Python you have installed. Please make sure that the version number is 3.9.0 or higher. If you have an older version of Python installed, please see the "Installing Python" subsection underneath "Setting Up."
+
+__WARNING__: Not having the most recent version installed may cause bugs, errors, and failure in starting the application.
+
+* #### Libraries Used
+![Pylint](images/pylint.PNG)
+  * [Pylint](https://www.pylint.org/)
+  
+  Pylint is a "Python static code analysis tool which looks for programming errors, helps enforcing a coding standard, sniffs for code smells and offers simple refactoring suggestions." This library helped us to build you this wonderful game and, if you decide to branch it for yourself, we suggest you use it aswell!
+![Pytest](images/pytest.PNG)
+  * [Pytes](thttps://docs.pytest.org/en/stable/)
+  
+  Pytest is "a framework that makes building simple and scalable tests easy." Please make sure this library is installed if you would like to perform tests on our code.
 
 ### Setting up
 
 * #### Installing Python
-* ### Installing Necessary Libraries
+* #### Installing Necessary Libraries
 * #### Downloading Github Code
   * Location of main function:
   * Which branch to run the game:
