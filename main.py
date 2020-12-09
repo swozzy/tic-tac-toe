@@ -7,6 +7,7 @@ from datetime import datetime
 
 def main():
 
+    # Logging stuff
     log = logging.getLogger("main")
     logging.basicConfig(format='%(asctime)s %(message)s', datefmt='%Y:%m:%d %I:%M:%S %p')
     logging.basicConfig(level=os.environ.get("LOGLEVEL","INFO"))
