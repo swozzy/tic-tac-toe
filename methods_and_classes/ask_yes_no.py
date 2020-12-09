@@ -6,8 +6,7 @@ def ask_yes_no(question):
 
     # question = "Would you like to know the rules of the game? (Y/N): "
 
-    user_in = input(question).lower()
-    #user_in = user_in.lower()
+    user_in = input(question).lower().replace(" ", "")
 
     # Array filled with "yes" answers
     yes_ans = ["yes", "ye", "y", "ya", "yea", "yeah", "yup"]
@@ -31,7 +30,7 @@ def ask_yes_no(question):
         while user_in not in both_ans:
             print("\n!! INVALID INPUT !!")
             print("Please enter 'yes' or 'no'.\n")
-            user_in = input(question).lower()
+            user_in = input(question).lower().replace(" ", "")
             print()
 
     if user_in in yes_ans:

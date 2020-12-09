@@ -1,5 +1,7 @@
 from initialization import initialization
 from play_again import play_again
+
+# Logging imports
 import logging
 import logging.handlers
 import os
@@ -7,6 +9,7 @@ from datetime import datetime
 
 def main():
 
+    # Logging information
     log = logging.getLogger("main")
     logging.basicConfig(format='%(asctime)s %(message)s', datefmt='%Y:%m:%d %I:%M:%S %p')
     logging.basicConfig(level=os.environ.get("LOGLEVEL","INFO"))
@@ -16,6 +19,8 @@ def main():
     log.setLevel(logging.INFO)
     log.info("Game start")
 
+    print("** WELCOME TO TIC-TAC-TOE!! **")
+
     initialization()
 
     flag = play_again()
@@ -24,6 +29,6 @@ def main():
         initialization()
         flag = play_again()
 
-    print("\n** THANK YOU FOR PLAYING !! **")
+    print("** THANK YOU FOR PLAYING !! **")
 
 main()

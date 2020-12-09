@@ -47,7 +47,7 @@ class Board():
 
     def check_before_update(self,player, index):
         if index in self.free_spots:
-            print(index)
+            
             return True
         else:
             return False
