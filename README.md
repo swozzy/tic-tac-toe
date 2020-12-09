@@ -19,19 +19,26 @@ __WARNING__: Not having the most recent version installed may cause bugs, errors
 
 ![Pylint](images/pylint.png)
 
-  * [Pylint](https://www.pylint.org/)
-  
-  Pylint is a "Python static code analysis tool which looks for programming errors, helps enforcing a coding standard, sniffs for code smells and offers simple refactoring suggestions." This library helped us to build you this wonderful game and, if you decide to branch it for yourself, we suggest you use it aswell!
+  [Pylint](https://www.pylint.org/) is a "Python static code analysis tool which looks for programming errors, helps enforcing a coding standard, sniffs for code smells and offers simple refactoring suggestions." This library helped us to build you this wonderful game and, if you decide to branch it for yourself, we suggest you use it aswell!
   
 ![Pytest](images/pytest.png)
 
-  * [Pytest](thttps://docs.pytest.org/en/stable/)
-  
-  Pytest is "a framework that makes building simple and scalable tests easy." Please make sure this library is installed if you would like to perform tests on our code.
+  [Pytest](thttps://docs.pytest.org/en/stable/) is "a framework that makes building simple and scalable tests easy." Please make sure this library is installed if you would like to perform tests on our code.
 
 ### Setting up
 
 * #### Installing Python
+
+If you don't have Python installed, or you have a version of Python that is older than 3.9.0, please reference the instructions below on how to install its latest version. Alternatively, watch the video below.
+
+https://www.youtube.com/watch?v=03PkciQUujk
+
+1. Go to https://www.python.org/downloads/
+2. Click the "Download Python 3.9.X" button
+3. Open the downloaded file
+4. Proceed through the installation
+5. Open a terminal and execute the "python --version" command to ensure that you installed the latest version.
+
 * #### Installing Necessary Libraries
 * #### Downloading Github Code
   * Location of main function:
