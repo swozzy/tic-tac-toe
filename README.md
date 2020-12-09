@@ -1,13 +1,20 @@
 # Tic-Tac-toe.README
 ## SWE - Fall 2020
+## //TODO: Team Name
 
 ### Prerequesites
-#### Checking Python version
-#### Libraries Needed
+* #### Checking Python version
+In order to ensure proper gameplay, we suggest having the most up-to-date version (3.9) of Python installed. Please see the steps below for making sure that this version is installed. 
+
+__NOTE__: Not having the most recent version installed may cause bugs, errors, and failure in starting the application.
+* #### Libraries Needed
+* Pylint
+* Pytest
 
 ### Setting up
 
 * #### Installing Python
+* ### Installing Necessary Libraries
 * #### Downloading Github Code
   * Location of main function:
   * Which branch to run the game:
