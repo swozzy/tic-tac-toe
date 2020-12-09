@@ -52,11 +52,15 @@ https://www.youtube.com/watch?v=03PkciQUujk
      3. The download should complete automatically.
    Pytest's website's instructions: https://docs.pytest.org/en/3.0.1/getting-started.html
 
-
-
 * #### Downloading Github Code
+  1. You're probably in this repository already, but if not, please follow this link: https://github.com/swozzy/tic-tac-toe/tree/main
+  2. Click the green " ⬇ Code" button
+  3. Download the repository as a ZIP file. It should be called "tic-tac-toe-main"
+  4. Open the folder that the ZIP file was downloaded to. Extract the files in that folder
+  5. 
   * Location of main function:
   * Which branch to run the game:
+  
 * #### Running the game
   1. Complete above section
   2. Open up terminal
