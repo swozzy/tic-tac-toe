@@ -41,16 +41,18 @@ https://www.youtube.com/watch?v=03PkciQUujk
 
 * #### Installing Necessary Libraries
    * Pylint
-     1. Open a terminal
-     2. Type in ```python -m pip install pylint``` and press Enter
-     3. The download should complete automatically.
-     For help, please see Pylint's website's instructions: https://www.pylint.org/#install
+    1. Open a terminal
+    2. Type in ```python -m pip install pylint``` and press Enter
+    3. The download should complete automatically.
+    
+    For additional help, please see Pylint's website's instructions: https://www.pylint.org/#install
    
    * Pytest
-     1. Open a terminal
-     2. Type in ```pip install -U pytest``` and press Enter
-     3. The download should complete automatically.
-     For help, please see Pytest's website's instructions: https://docs.pytest.org/en/3.0.1/getting-started.html
+    1. Open a terminal
+    2. Type in ```pip install -U pytest``` and press Enter
+    3. The download should complete automatically.
+    
+    For further help, please see Pytest's website's instructions: https://docs.pytest.org/en/3.0.1/getting-started.html
 
 * #### Downloading Github Code
   1. You're probably in this repository already, but if not, please follow this link: https://github.com/swozzy/tic-tac-toe/tree/main
@@ -61,7 +63,7 @@ https://www.youtube.com/watch?v=03PkciQUujk
   
   
   __NOTE (1)__: Location of main function: C:\...\FOLDER_EXTRACTED_TO\tic-tac-toe-main\methods_and_classes
-  * Which branch to run the game:
+  
   __NOTE (2)__: There are no branches besides the ```main``` branch, so please use that one.
   
 * #### Running the Game
