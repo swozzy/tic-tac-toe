@@ -7,7 +7,7 @@ import os
 from datetime import datetime
 
 def play_tic_tac_toe(p1, p2):
-    log = logging.getLogger("main")
+   # log = logging.getLogger("main")
     # Creates game board
     b = Board([], [], [1, 2, 3, 4, 5, 6, 7, 8, 9], {1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8, 9: 9}, p1, p2)
 
@@ -40,7 +40,7 @@ def play_tic_tac_toe(p1, p2):
 
             if (move_counter == 9):
                 print("!! GAME ENDED IN TIE !!")
-                log.info("!! GAME ENDED IN TIE !!")
+                logging.info("!! GAME ENDED IN TIE !!")
                 return
             if won_flag:
                 return
@@ -75,6 +75,7 @@ def play_tic_tac_toe(p1, p2):
 
             if (move_counter == 9):
                 print("!! GAME ENDED IN TIE !!")
+                logging.info("!! GAME ENDED IN TIE !!")
                 return
             if won_flag:
                 return
