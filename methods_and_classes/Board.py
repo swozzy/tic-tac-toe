@@ -61,7 +61,7 @@ class Board():
 
     # Checks all winning conditions
     def win_check(self):
-        log = logging.getLogger("main")
+       # log = logging.getLogger("main")
         # For Reference
        # winning_conditions = [[1, 2, 3], [4, 5, 6], [7, 8, 9], \
                        #      [1, 4, 7], [2, 5, 8], [3, 6, 9], \
@@ -77,7 +77,7 @@ class Board():
         ((3 in self.p1_moves) and (5 in self.p1_moves) and (7 in self.p1_moves)):
             print("\n!! CONGRATULATIONS !!")
             print("** " + self.p1.get_name().upper() + " WON **")
-            log.info("** " + self.p1.get_name().upper() + " WON **")
+            logging.info("** " + self.p1.get_name().upper() + " WON **")
             return True
 
         elif ((1 in self.p2_moves) and (2 in self.p2_moves) and (3 in self.p2_moves)) or \
@@ -90,7 +90,7 @@ class Board():
         ((3 in self.p2_moves) and (5 in self.p2_moves) and (7 in self.p2_moves)):
             print("\n!! CONGRATULATIONS !!")
             print("** " + self.p2.get_name().upper() + " WON **")
-            log.info("** " + self.p1.get_name().upper() + " WON **")
+            logging.info("** " + self.p1.get_name().upper() + " WON **")
             return True
 
         return False
