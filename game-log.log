@@ -70,3 +70,7 @@
 2020-12-09 16:27:27,763 - main - INFO - ** S WON ** - win_check - line 93
 2020-12-09 16:27:42,430 - main - INFO - ** W will go first and S will go second **111 - choose_first - line 38
 2020-12-09 16:27:54,057 - main - INFO - ** S WON ** - win_check - line 93
+2020-12-09 16:35:22,596 - main - INFO - ** d will go first and j will go second **222 - choose_first - line 34
+2020-12-16 13:54:57,827 - main - INFO - Game start - main - line 20
+2020-12-16 13:55:04,586 - main - INFO - ** Wozniak will go first and Szymon will go second **111 - choose_first - line 38
+2020-12-16 13:55:22,961 - main - INFO - ** SZYMON WON ** - win_check - line 93
