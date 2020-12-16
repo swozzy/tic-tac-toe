@@ -26,9 +26,9 @@ def choose_first(p1, p2):
     # Prints who goes first for user clarification
     if p1.get_turn() == "first":
         print("** " + p1.get_name() + " will go first and " + p2.get_name() + " will go second **")
-        logging.info("** " + p1.get_name() + " will go first and " + p2.get_name() + " will go second **222")
+        logging.info("** " + p1.get_name() + " will go first and " + p2.get_name() + " will go second **")
     #elif p2.get_turn() == "first":
     else:
         print("** " + p2.get_name() + " will go first and " + p1.get_name() + " will go second **")
-        logging.info("** " + p2.get_name() + " will go first and " + p1.get_name() + " will go second **111")
+        logging.info("** " + p2.get_name() + " will go first and " + p1.get_name() + " will go second **")
 

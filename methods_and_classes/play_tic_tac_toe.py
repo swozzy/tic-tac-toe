@@ -39,8 +39,8 @@ def play_tic_tac_toe(p1, p2):
 
 
             if (move_counter == 9):
-                print("!! GAME ENDED IN TIE !!")
                 logging.info("!! GAME ENDED IN TIE !!")
+                print("!! GAME ENDED IN TIE !!")
                 return
             if won_flag:
                 return
@@ -74,8 +74,8 @@ def play_tic_tac_toe(p1, p2):
             move_counter = move_counter + 1
 
             if (move_counter == 9):
-                print("!! GAME ENDED IN TIE !!")
                 logging.info("!! GAME ENDED IN TIE !!")
+                print("!! GAME ENDED IN TIE !!")
                 return
             if won_flag:
                 return

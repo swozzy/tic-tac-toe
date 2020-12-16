@@ -90,7 +90,7 @@ class Board():
         ((3 in self.p2_moves) and (5 in self.p2_moves) and (7 in self.p2_moves)):
             print("\n!! CONGRATULATIONS !!")
             print("** " + self.p2.get_name().upper() + " WON **")
-            logging.info("** " + self.p1.get_name().upper() + " WON **")
+            logging.info("** " + self.p2.get_name().upper() + " WON **")
             return True
 
         return False
