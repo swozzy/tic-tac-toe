@@ -1,5 +1,8 @@
 from Player import Player
 from ask_symbol import ask_symbol
+import logging
+import os
+from datetime import datetime
 
 def choose_symbols(p1, p2):
 
@@ -33,4 +36,5 @@ def choose_symbols(p1, p2):
             p2.set_symbol("o")
 
     # Prints users' symbols for clarification
+    logging.info("** " + p1.get_name() + " has the symbol  " + p1.get_symbol().upper() + " and " + p2.get_name() + " has the symbol  " + p2.get_symbol().upper()+" **")
     print("\n" + p1.get_name() + " is '" + p1.get_symbol().upper() + "' and " + p2.get_name() + " will be '" + p2.get_symbol().upper() + "'")
