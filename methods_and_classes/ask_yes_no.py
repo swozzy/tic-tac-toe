@@ -2,6 +2,11 @@
 # Comes with built-in error detection. Will keep asking user to input a valid input if they did not enter
 # 'yes' or 'no'.
 
+import logging
+import os
+from datetime import datetime
+
+
 def ask_yes_no(question):
 
     # question = "Would you like to know the rules of the game? (Y/N): "
@@ -29,6 +34,7 @@ def ask_yes_no(question):
     else:
         while user_in not in both_ans:
             print("\n!! INVALID INPUT !!")
+            logging.error("!! INVALID INPUT !!")
             print("Please enter 'yes' or 'no'.\n")
             user_in = input(question).lower().replace(" ", "")
             print()
