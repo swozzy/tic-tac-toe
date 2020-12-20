@@ -86,4 +86,7 @@ https://www.youtube.com/watch?v=03PkciQUujk
 ## __X__ | __O__ | __O__
  
 ### Running tests
-  1. Open and run the test_A10unittest.py file under the methods_and_classes folder.
+  - Open and run the test_A10unittest.py file under the methods_and_classes folder.
+  
+### Finding logging information
+  - The logging filed is named as game_log.log under the methods and classes folder.
