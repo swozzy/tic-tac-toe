@@ -86,8 +86,4 @@ https://www.youtube.com/watch?v=03PkciQUujk
 ## __X__ | __O__ | __O__
  
 ### Running tests
-  1. Insert information on how to run tests here.
-      * This part is still a slight Work-In-Progress.
-      * Feel free to explore the test files that are in the "Debugging" folder
-      * If you open them in Visual Studio (or whatever you use to run tests) then you might be able to run some tests of our files
-      * However, those files are not up-to-date, and what we have so far doesn't work correctly. So, we left the not up-to-date, yet working files in the Debugging folder
+  1. Open and run the test_A10unittest.py file under the methods_and_classes folder.
