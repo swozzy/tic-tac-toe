@@ -2,7 +2,6 @@
 from Player import Player
 from random import randint
 import logging
-import logging.handlers
 import os
 from datetime import datetime
 
