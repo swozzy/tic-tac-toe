@@ -2,7 +2,6 @@ from Board import Board
 from Player import Player
 from ask_move import ask_move
 import logging
-import logging.handlers
 import os
 from datetime import datetime
 
@@ -30,6 +29,7 @@ def play_tic_tac_toe(p1, p2):
             index = ask_move(p1)
             while b.check_before_update(p1,index) is False:
                 print("\n!!  SPOT HAS BEEN TAKEN, PLEASE CHOOSE AGAIN")
+                logging.error("!!  SPOT HAS BEEN TAKEN, PLEASE CHOOSE AGAIN")
                 index = ask_move(p1)
             b.update_p1(p1, index)
             won_flag = b.update_board(p1, index)
@@ -49,6 +49,7 @@ def play_tic_tac_toe(p1, p2):
             index = ask_move(p2)
             while b.check_before_update(p2,index) is False:
                 print("\n!!  SPOT HAS BEEN TAKEN, PLEASE CHOOSE AGAIN")
+                logging.error("!!  SPOT HAS BEEN TAKEN, PLEASE CHOOSE AGAIN")
                 index = ask_move(p2)
             b.update_p2(p2, index)
             won_flag = b.update_board(p2, index)
@@ -66,6 +67,7 @@ def play_tic_tac_toe(p1, p2):
             index = ask_move(p2)
             while b.check_before_update(p2,index) is False:
                 print("\n!!  SPOT HAS BEEN TAKEN, PLEASE CHOOSE AGAIN")
+                logging.error("!!  SPOT HAS BEEN TAKEN, PLEASE CHOOSE AGAIN")
                 index = ask_move(p2)
             b.update_p2(p2, index)
             won_flag = b.update_board(p2, index)
@@ -84,6 +86,7 @@ def play_tic_tac_toe(p1, p2):
             index = ask_move(p1)
             while b.check_before_update(p1,index) is False:
                 print("\n!!  SPOT HAS BEEN TAKEN, PLEASE CHOOSE AGAIN")
+                logging.error("!!  SPOT HAS BEEN TAKEN, PLEASE CHOOSE AGAIN")
                 index = ask_move(p1)
             b.update_p1(p1, index)
             won_flag = b.update_board(p1, index)
